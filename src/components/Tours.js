@@ -1,6 +1,5 @@
 import Card from "./Card";
 
-
 function Tours({ tours, removeTour }) {
     return (
         <div className="flex items-center flex-col bg-[#EEE9D1]">

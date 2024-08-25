@@ -44,7 +44,7 @@ function Card(props)
 
     return(
     <div className=" w-[400px] h-auto m-[1rem] p-4 flex flex-col rounded-[10px] items-center shadow-custom1 hover:scale-105 transition-all duration-300 hover:shadow-custom2 bg-white">
-        <img src={props.image}  className="w-[380px] h-[380px] object-cover"/>
+        <img src={props.image} alt="image_here" className="w-[380px] h-[380px] object-cover"/>
         <div className="tour-info"> 
 
             <div className="tour-details">
