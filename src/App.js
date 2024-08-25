@@ -17,7 +17,7 @@ const App = () => {
     setTour(data);
   }
 
-  if(tours.length==0)
+  if(tours.length===0)
   {
     return(
       <div className="w-[100vw] h-[100vh] flex justify-center items-center flex-col bg-[#EEE9D1] ">
